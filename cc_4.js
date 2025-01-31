@@ -10,3 +10,14 @@ if (purchaseAmount > 100) {
 }
 console.log(`The final amount after discount: $${finalAmount}`); // Displays output
 // Task 1 - End
+
+// Task 2 - For loop
+let sales = [ 80, 125, 250, 350, 450]; // Array of sales
+let totalSales = 0;
+
+for (let i = 0; i < sales.length; i++) {
+    totalSales += sales[i] // Sum value of sales to totalSales
+}
+console.log(`The total sales are: $${totalSales}`); // Displays output
+// Task 2 - End
+
