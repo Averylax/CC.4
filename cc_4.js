@@ -21,3 +21,11 @@ for (let i = 0; i < sales.length; i++) {
 console.log(`The total sales are: $${totalSales}`); // Displays output
 // Task 2 - End
 
+// Task 3 - While loop
+let stockValue = 10; // Initial stock value
+while (stockValue > 0) { // Loop reduces stock value until it reaches 0
+    console.log(`Remaining Stock Value: ${stockValue}`); // Displays output
+stockValue--; // Decreases stock value by 1
+}
+console.log(`Womp Womp... Out of Stock!`); // Displays output
+// Task 3 - End
