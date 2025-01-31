@@ -29,3 +29,12 @@ stockValue--; // Decreases stock value by 1
 }
 console.log(`Womp Womp... Out of Stock!`); // Displays output
 // Task 3 - End
+
+// Task 4 - Do While loop
+let responses = 0;
+do {
+    console.log(`Response Amount: ${responses}`); // Displays output
+    responses++; // Increases response amount by 1
+    } while (responses <= 3); // Loop continues until response amount reaches 3
+console.log(`The resposes have been recieived!`); // Displays output
+// Task 4 - End
