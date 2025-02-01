@@ -60,5 +60,12 @@ for (let product of products) {
 }
 // Task 6 - End
 
+// Task 7 - forEach() Method
+let orders = [101, 102, 103]; // List of orders
+orders.forEach(function(order) {
+    console.log(`Order ID: ${order}`); // Displays output
+});
+// Task 7 - End
+
 
 
