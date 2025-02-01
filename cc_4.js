@@ -23,8 +23,10 @@ console.log(`The total sales are: $${totalSales}`); // Displays output
 
 // Task 3 - While loop
 let stockValue = 10; // Initial stock value
+
 while (stockValue > 0) { // Loop reduces stock value until it reaches 0
-    console.log(`Remaining Stock Value: ${stockValue}`); // Displays output
+
+console.log(`Remaining Stock Value: ${stockValue}`); // Displays output
 stockValue--; // Decreases stock value by 1
 }
 console.log(`Womp Womp... Out of Stock!`); // Displays output
@@ -38,3 +40,16 @@ do {
     } while (responses <= 3); // Loop continues until response amount reaches 3
 console.log(`The resposes have been recieived!`); // Displays output
 // Task 4 - End
+
+// Task 5 - For... In loop
+let employee = {
+    name: `Alice`,
+    position: `Manager`,
+    salary: 75000,
+};
+
+for (let key in employee) {
+    console.log(`${key}: ${employee[key]}`) // Displays output
+};
+// Task 5 - End
+
