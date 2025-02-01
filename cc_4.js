@@ -53,3 +53,12 @@ for (let key in employee) {
 };
 // Task 5 - End
 
+// Task 6 - For... Of loop
+let products = ["String", "Mesh", "lacrosseBall"]; // List of products
+for (let product of products) {
+    console.log(`Product: ${product}`); // Displays output
+}
+// Task 6 - End
+
+
+
