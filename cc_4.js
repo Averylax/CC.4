@@ -67,5 +67,16 @@ orders.forEach(function(order) {
 });
 // Task 7 - End
 
-
+// Task 8 - Function Decloration
+function calculateTax(amount, taxRate) {
+    return amount * taxRate; // Formula to calculate tax amount
+    }
+let amount = 30; // Initial amount
+let taxRate = .10; // Tax amount
+let tax = calculateTax(amount, taxRate); // Calculates tax amount
+totalAmount = amount + tax; // Calculates total amount
+console.log(`Initial amount: $${amount}`); // Displays output
+console.log(`Tax rate: ${taxRate}`); // Displays output
+console.log(`Thank you for the purchase, your total accumelates to: $${totalAmount}`); // Displays total amount
+// Task 8 - End
 
