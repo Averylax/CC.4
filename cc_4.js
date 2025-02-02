@@ -92,3 +92,10 @@ console.log(`Purchase price: $${price}`); // Displays Price
 console.log(`The discount rate is: ${discount}%`); // Displays discount amount
 console.log(`The discounted price is: $${discountedPrice}`); // Displays price after discount
 // Task 9 - End
+
+// Task 10 - Arrow Function
+const calculatePoints = purchaseTotal => Math.floor(purchaseTotal / 10); // Function that calculates a point for every $10 spent
+let purchase = 55; // Purchase amount
+let points = calculatePoints(purchase); // Calculates points
+console.log(`Since you spent $${purchase}, you have earned ${points} points!`); // Displays amout of points
+// Task 10 - End
