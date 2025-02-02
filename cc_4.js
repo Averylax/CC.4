@@ -80,3 +80,15 @@ console.log(`Tax rate: ${taxRate}`); // Displays output
 console.log(`Thank you for the purchase, your total accumelates to: $${totalAmount}`); // Displays total amount
 // Task 8 - End
 
+// Task 9 - Function Expression
+const applyDiscount = function(amount, discount) { // Function expression represented by amount and discount
+    let discountAmount = price * (discount/100); // calculates discount amount
+    return price - discountAmount; // returns price - discount amount
+};
+let price = 30; // Initial price
+let discount = 10; // Discount amount
+let discountedPrice = applyDiscount(price, discount); // Applying the discount
+console.log(`Purchase price: $${price}`); // Displays Price
+console.log(`The discount rate is: ${discount}%`); // Displays discount amount
+console.log(`The discounted price is: $${discountedPrice}`); // Displays price after discount
+// Task 9 - End
